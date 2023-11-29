@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>page 1</title>
+</head>ึ
+<body>
+    <h1>Welcome to the homepage.</h1>
+    <p>This is our website's main page.</p>
+
+    <!-- สร้างลิงค์ไปยังหน้าอื่น -->
+    <a href="t.html" class="custom-link">Go to the personal profile page.</a>
+    <a href="tt.html" class="custom-link">Go to interesting things.</a>
+</body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('ku.jpg'); /* ระบุ URL ของรูปภาพพื้นหลังที่คุณต้องการใช้ */
+        background-size:contain; /* ให้รูปภาพครอบคลุมพื้นที่ของหน้าเว็บ */
+        background-repeat: no-repeat; /* ไม่ให้รูปภาพทำซ้ำ */
+        background-position:right; /* ให้รูปภาพอยู่กึ่งกลางของหน้าเว็บ */
+        margin: 0;
+        padding: 0;
+    }
+
+ /* เพิ่มสไตล์ให้กับลิงค์ */
+ a {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 10px;
+            text-decoration: none;
+            color: #000; /* สีข้อความที่ไม่ได้ถูกชี้ */
+            background-color: #ccc; /* สีพื้นหลังเริ่มต้นของลิงค์ */
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #888; /* สีพื้นหลังเมื่อชี้ลิงค์ */
+            color: #fff; /* สีข้อความเมื่อชี้ลิงค์ */
+        }
+</style>
+</html>
+
